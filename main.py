@@ -32,8 +32,8 @@ def process_queries(queries):
                 
         elif cur_query.type == 'del':
             #for j in range(len(contacts)):
-                if cur_query.type =='del':
-                    del contacts[cur_query.number]
+               
+             del contacts[cur_query.number]
                     
         else:
             output =contacts.get(cur_query.number, 'not found')
