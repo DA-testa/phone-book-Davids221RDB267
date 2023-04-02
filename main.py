@@ -32,7 +32,7 @@ def process_queries(queries):
                 
         elif cur_query.type=='del':
             #for j in range(len(contacts)):
-            if cur_query.type in contacts:
+            if cur_query.number in contacts:
                 
                 del contacts[cur_query.number]
                         
