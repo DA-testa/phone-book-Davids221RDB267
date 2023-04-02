@@ -32,10 +32,10 @@ def process_queries(queries):
                 
         elif cur_query.type == 'del':
             #for j in range(len(contacts)):
-            try:
+            
+            if cur_query.type== 'del'
+            
                 del contacts[cur_query.number]
-            except KeyError:
-                pass
                         
         else:
             output =contacts.get(cur_query.number, 'not found')
